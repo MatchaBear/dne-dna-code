@@ -116,7 +116,7 @@ def verify() -> bool:
             print('DNA Center Network Device Count: ' + str(c))
             print('DNA Center Host Count: ' + str(h))
             if c <= 0 or h <=0:
-                print('FAILED: No host and device invetory in DNA Center')
+                print('FAILED: No host and device inventory in DNA Center')
                 return False
 
     return True
